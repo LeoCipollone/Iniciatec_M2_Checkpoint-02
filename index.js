@@ -1,25 +1,25 @@
 const upcomingEvents = [{
   title: "Title",
   description: "Description",
-  url: "../assets/images/event-1.jpg",
+  url: "./assets/images/event-1.jpg",
   imgAlt: "event",
   price: 20
 }, {
   title: "Title",
   description: "Description",
-  url: "../assets/images/event-2.jpg",
+  url: "./assets/images/event-2.jpg",
   imgAlt: "event",
   price: 40
 }, {
   title: "Title",
   description: "Description",
-  url: "../assets/images/event-3.jpg",
+  url: "./assets/images/event-3.jpg",
   imgAlt: "event",
   price: 35
 }, {
   title: "Title",
   description: "Description",
-  url: "../assets/images/event-4.jpg",
+  url: "./assets/images/event-4.jpg",
   imgAlt: "event",
   price: 18
 }];
