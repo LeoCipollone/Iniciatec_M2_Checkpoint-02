@@ -3,24 +3,44 @@ const upcomingEvents = [{
   description: "Description",
   url: "./assets/images/event-1.jpg",
   imgAlt: "event",
+  date: "01/01/23",
+  category: "event",
+  place: "place",
+  capacity: 9999,
+  estimatedAssistance: 9000,
   price: 20
 }, {
   title: "Title",
   description: "Description",
   url: "./assets/images/event-2.jpg",
   imgAlt: "event",
+  date: "01/01/23",
+  category: "event",
+  place: "place",
+  capacity: 9999,
+  estimatedAssistance: 9000,
   price: 40
 }, {
   title: "Title",
   description: "Description",
   url: "./assets/images/event-3.jpg",
   imgAlt: "event",
+  date: "01/01/23",
+  category: "event",
+  place: "place",
+  capacity: 9999,
+  estimatedAssistance: 9000,
   price: 35
 }, {
   title: "Title",
   description: "Description",
   url: "./assets/images/event-4.jpg",
   imgAlt: "event",
+  date: "01/01/23",
+  category: "event",
+  place: "place",
+  capacity: 9999,
+  estimatedAssistance: 9000,
   price: 18
 }];
 
@@ -64,7 +84,19 @@ upcomingEvents.forEach((result, index) => {
                   ${result.description}
                 </p>
                 <p class="card-text">
-                  ${result.description}
+                  Date: ${result.date}
+                </p>
+                <p class="card-text">
+                  Category: ${result.category}
+                </p>
+                <p class="card-text">
+                  Place: ${result.place}
+                </p>
+                <p class="card-text">
+                  Capacity: ${result.capacity}
+                </p>
+                <p class="card-text">
+                  Estimated Assistance: ${result.estimatedAssistance}
                 </p>
                 <p class="card-text">
                   Price: <span>$${result.price}</span>

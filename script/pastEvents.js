@@ -3,24 +3,44 @@ const pastEvents = [{
   description: "Description",
   url: "../assets/images/event-5.jpg",
   imgAlt: "event",
+  date: "01/01/22",
+  category: "event",
+  place: "place",
+  capacity: 9999,
+  estimatedAssistance: 9000,
   price: 35
 }, {
   title: "Title",
   description: "Description",
   url: "../assets/images/event-6.jpg",
   imgAlt: "event",
+  date: "01/01/22",
+  category: "event",
+  place: "place",
+  capacity: 9999,
+  estimatedAssistance: 9000,
   price: 18
 }, {
   title: "Title",
   description: "Description",
   url: "../assets/images/event-7.jpg",
   imgAlt: "event",
+  date: "01/01/22",
+  category: "event",
+  place: "place",
+  capacity: 9999,
+  estimatedAssistance: 9000,
   price: 39
 }, {
   title: "Title",
   description: "Description",
   url: "../assets/images/event-8.jpg",
   imgAlt: "event",
+  date: "01/01/22",
+  category: "event",
+  place: "place",
+  capacity: 9999,
+  estimatedAssistance: 9000,
   price: 25
 }];
 
@@ -64,7 +84,19 @@ pastEvents.forEach((result, index) => {
                   ${result.description}
                 </p>
                 <p class="card-text">
-                  ${result.description}
+                  Date: ${result.date}
+                </p>
+                <p class="card-text">
+                  Category: ${result.category}
+                </p>
+                <p class="card-text">
+                  Place: ${result.place}
+                </p>
+                <p class="card-text">
+                  Capacity: ${result.capacity}
+                </p>
+                <p class="card-text">
+                  Estimated Assistance: ${result.estimatedAssistance}
                 </p>
                 <p class="card-text">
                   Price: <span>$${result.price}</span>

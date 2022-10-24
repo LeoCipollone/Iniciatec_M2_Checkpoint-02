@@ -70,6 +70,9 @@ body {
 .price span {
   color: green;
 }
+.modal {
+  left: -50px;
+}
 .modal-content {
   width: fit-content;
 }
@@ -79,8 +82,8 @@ body {
   justify-content: space-evenly;
 }
 .modal-img img {
-  width: 250px;
-  height: 250px;
+  width: 300px;
+  height: 300px;
   box-shadow: -5px -5px 15px rgba(0, 0, 0, 0.5);
   margin-right: 20px;
 }
@@ -89,8 +92,8 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 250px;
-  height: 250px;
+  width: 300px;
+  height: 300px;
   border: 1px solid black;
   border-radius: 10px;
 }
@@ -112,7 +115,7 @@ body {
 .table {
   margin: 0;
 }
-.table thead {
+.table .thead {
   border-bottom: 1px solid yellow;
 }
 footer {
@@ -132,7 +135,7 @@ footer i {
   font-size: 3em;
 }
 
-@media only screen and (max-width: 1000px) {
+@media (max-width: 1000px) {
   .checkbox-container {
     flex-wrap: wrap;
     min-width: 120px;
@@ -145,7 +148,7 @@ footer i {
     width: 70%;
   }
 }
-@media only screen and (max-width: 550px) {
+@media (max-width: 800px) {
   .search-container {
     flex-direction: column;
   }
@@ -153,7 +156,7 @@ footer i {
     height: 100vh;
   }
   .modal {
-    left: 40px;
+    left: 0;
   }
   .modal-body {
     flex-direction: column;
@@ -166,7 +169,12 @@ footer i {
     margin-bottom: 10px;
   }
 }
-@media only screen and (max-width: 290px) {
+@media (max-width: 580px) {
+  .modal {
+    left: 20px;
+  }
+}
+@media (max-width: 290px) {
   .modal {
     left: 0;
   }
@@ -176,6 +184,6 @@ footer i {
   }
   .modal-description {
     width: 200px;
-    height: 200px;
+    height: 300px;
   }
 }
